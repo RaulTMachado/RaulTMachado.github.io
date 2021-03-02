@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(125deg,red,yellow,green);
+    font-family: 'Ranchers';
+    width: auto;
+}
+
+h1{
+    margin:40px auto 40px auto;
+    width: 50%;
+    text-align: center;
+}
+
+header{
+    float: left;
+    margin-left: 60px; ;
+}
+
+nav{
+    float: right;
+    margin-right: 60px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 .8em 0 .8em;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover{
+    color: green;
+}
+
+.principal{
+    position: relative;
+    top: 120px;
+}
+
+.principal img{
+    max-width: 10%;
+    height: auto;
+
+    border-radius: 50%;
+    border: 20px solid #daa520;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    padding: 0 0 5px 0 ;
+    margin: 21% auto 0 auto;
+    width: 10%;
+    
+}
+
+footer ul li {
+    display: inline-block; 
+}

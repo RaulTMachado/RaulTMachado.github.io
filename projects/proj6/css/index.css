@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+    font-family: 'DotGothic16', sans-serif;
+    
+}
+
+header{
+    color: whitesmoke;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+div{
+    width: 25%;
+    margin: 7em auto;
+    text-align: center;
+}
+
+#clock {
+    font-size: 2em;
+    color:whitesmoke;
+}
+
+.box-bios{
+    border: 3px double white;
+    padding: 10px;
+}

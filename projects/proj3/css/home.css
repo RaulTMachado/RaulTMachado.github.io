@@ -1,0 +1,85 @@
+body{
+    background-color: #24252A;
+}
+*{
+    /* são utilizados para todas os elemento, classes e etc */
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li, a{
+    /* cor da letra */
+    color:#edf0f1;
+    /* sem sublinhado na li */
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+    color:#edf0f1;
+}
+
+.navs-links {
+    /* tira as bolinhas da lista */
+    list-style: none;
+}
+
+.navs-links li{
+    /* deixa a lista em formato de linha */
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navs-links li a{
+    /* cria animação de 0 a 0.3s */
+    transition: all 0.3s ease 0s;
+}
+
+.navs-links li a:hover{
+    /* cria animação de 0 a 0.3s */
+    color: #edf0f1A1 ;
+}
+
+.cards{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+section{
+    background-color: #018801 ;
+    width: 33%;
+    border-radius: 20px;
+
+}
+
+.cards p{
+    background-color: #5fd368;
+    margin: 1em;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+.cards img{
+    max-height: 200px;
+    /* max-width: 300px; */
+    
+    /* width: auto; */
+    /* height: auto; */
+    justify-content: center;
+    margin: 2em 0 0 0;
+    border-radius: 8px;
+    border: 3px solid #224d25
+}
+
+
+
