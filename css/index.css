@@ -9,16 +9,18 @@ body{
 }
 
 header{
-    position: absolute;
+    position: relative;
     
 }
 
 header h1{
-    text-align: center;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
 }
 
 .flex-container{
-    height: 95vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
